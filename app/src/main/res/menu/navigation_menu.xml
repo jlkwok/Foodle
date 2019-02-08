@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/emptyIngredients"
+        android:title="@string/ingredients"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/Ingredients"
+        android:title="@string/ingredients">
+        <menu android:id="@+id/IngredientSubmenu" />
+    </item>
+
+    <item android:id="@+id/Breakfast"
+        android:title="@string/breakfast"/>
+
+    <item android:id="@+id/Lunch"
+        android:title="@string/lunch"/>
+
+    <item android:id="@+id/Dinner"
+        android:title="@string/dinner"/>
+
+    <item android:id="@+id/Dessert"
+        android:title="@string/dessert"/>
+
+    <item android:id="@+id/Location"
+        android:title="@string/location"/>
+
+    <item android:id="@+id/CalorieCounter"
+        android:title="@string/calorie_counting"/>
+
+    <item android:id="@+id/Help"
+        android:title="@string/help"/>
+</menu>

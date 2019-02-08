@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Foodle</string>
+
+    <item
+        type="id"
+        name="deleteIngredient" />
+
+    <!-- Side Menu -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Navigation Menu Names -->
+    <string name="calorie_counter">Calorie Counter</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="dessert">Dessert</string>
+    <string name="location">Location</string>
+    <string name="calorie_counting">Calorie Counting</string>
+    <string name="help">Help</string>
+
+    <!-- Ingredients -->
+    <string name="delete_all">Delete all ingredients in list?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Activity Main -->
+    <string name="toggle">Toggle</string>
+    <string name="search_hint_ingredient">Enter ingredient search here...</string>
+    <string name="search_hint_keyword">Enter keyword search here...</string>
+
+
+    <!-- Recipe row -->
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+
+    <!-- CalorieCount -->
+    <string name="addFoodName">+</string>
+    <string name="enter_food">Enter Food</string>
+
+    <!-- Help page -->
+    <string name="keywordSearch">Search by Keyword</string>
+    <string name="keywordSearchHelp">Foodle starts up with this page and is defaulted with the toggle in the right corner off. When the toggle is off, the User can search by keyword or recipe name.</string>
+    <string name="ingredientSearch">Search by Ingredient</string>
+    <string name="ingredientSearchHelp">This is the same homepage except the toggle is switched on. When the toggle is on, the User can perform an ingredient-based search by adding ingredients to the list, using the + button.</string>
+    <string name="ingredientListHelp">After typing an ingredient in the search bar and pressing the + button, the ingredients are displayed in the side navigation menu. A single click on the x button will delete the selected ingredient and if the User long clicks the x button, all the ingredients in the list will be deleted. \nThis menu also gives the User access to features such as recipe-search based on Meal Categories (Breakfast, Lunch, Dinner, Dessert), the User\'s location with permission (Location), and the Calorie Counting feature. </string>
+    <string name="searchResults">Search Results Display</string>
+    <string name="searchResultsHelp">A list of recipes will be returned after search by keyword, ingredient, meal category, or location is performed. Upon clicking the picture of the recipe, a browser page will open with the corresponding recipe. </string>
+    <string name="calorieCounting">Calorie Counting</string>
+    <string name="calorieCountingHelp">This feature allows the User to add ingredients, by typing them into the textbox and clicking the + button, specify the number of servings per ingredient using the up and down buttons to the right of the ingredient in the list, and the total calorie count will be displayed at the bottom of the page.</string>
+
+</resources>
